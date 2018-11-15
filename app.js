@@ -32,25 +32,18 @@ $(document).ready(function(){
     })
 	//Moscow
 	$(".Photo1").click(function(){
-				$("#Moscow").show();
+				$("#Moscow").toggle();
 			})
-	$(".Photo1").dblclick(function(){
-				$("#Moscow").hide();
-			})
+	
 	//KV
 	$(".Photo2").click(function(){
-				$("#KV").show();
+				$("#KV").toggle();
 			})
-	$(".Photo2").dblclick(function(){
-				$("#KV").hide();
-			})
-	//London
+		//London
 	$(".Photo3").click(function(){
-				$("#London").show();
+				$("#London").toggle();
 			})
-	$(".Photo3").dblclick(function(){
-				$("#London").hide();
-			})
+	
 
 
 
